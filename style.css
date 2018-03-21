@@ -60,16 +60,17 @@ div.wrapper {
 	position: absolute;
 }
 header.nav {
+	background-color: black;
 	position: absolute;
 	margin-left: 500px;
 }
 a.nav:hover {
 	background-color: snow;
+	border-radius: 24px;
 }
 li.nav {
-	background-color: black;
 	border: 2px solid black;
-	border-radius: 10px;
+	/*border-radius: 24px;*/
 	float: left;
 	margin: 0px 5px;
 }
@@ -79,6 +80,7 @@ ul, li, a {
 }
 a.nav {
 	color: gold;
+	text-decoration: none;
 }
 div.title {
 	position: relative;
@@ -107,6 +109,12 @@ article.section2 {
 article.section3 {
 	margin: 10px 0px;
 	padding-bottom: 20px;
+}
+.myphoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
 }
 footer.footer {
 	
