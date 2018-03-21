@@ -93,6 +93,8 @@ div.title {
 }
 .sectiontitle {
 	font-size: 1.1em;
+	text-indent: 50px;
+	margin: 10px 0px;
 }
 article.section1 {
 	margin: 10px 0px;
