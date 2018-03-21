@@ -47,9 +47,37 @@ table {
 	border-spacing: 0;
 }
 /*end of reset code*/
-ul, li {
-	float: right;
+body {
+	color: black;
+	font-family: palatino;
+}
+h1, h3 {
+	color: cadetblue;
+	font-family: charcoal;
+}
+div.wrapper {
+	width: 960px;
+}
+header.nav {
+	position: absolute;
+	margin-left: 530px;
+}
+li.nav {
+	float: left;
+	margin: 0 5px;
 }
 ul, li, a {
 	display: block;
+}
+div.title {
+	position: relative;
+	width: 235px;
+	top: 40px;
+	margin: 0px 0px 40px 0px;
+}
+article.section1 {
+	margin: 10px 0px;
+}
+article.section2 {
+	margin: 10px 0px;
 }
