@@ -54,9 +54,11 @@ body {
 h1, h3 {
 	color: cadetblue;
 	font-family: charcoal;
+	
 }
 div.wrapper {
 	width: 960px;
+	position: absolute;
 }
 header.nav {
 	position: absolute;
@@ -71,13 +73,20 @@ ul, li, a {
 }
 div.title {
 	position: relative;
-	width: 235px;
+	width: 360px;
 	top: 40px;
 	margin: 0px 0px 40px 0px;
+	font-size: 1.5em;
+	padding-bottom: 20px;
 }
 article.section1 {
 	margin: 10px 0px;
+	padding-bottom: 20px;
 }
 article.section2 {
 	margin: 10px 0px;
+	padding-bottom: 20px;
+}
+footer.footer {
+	
 }
