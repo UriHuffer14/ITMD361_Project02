@@ -63,7 +63,7 @@ header.nav {
 	position: absolute;
 	margin-left: 500px;
 }
-a:hover {
+a.nav:hover {
 	background-color: snow;
 }
 li.nav {
@@ -74,8 +74,11 @@ li.nav {
 	margin: 0px 5px;
 }
 ul, li, a {
-	color: gold;
+	color: black;
 	display: block;
+}
+a.nav {
+	color: gold;
 }
 div.title {
 	position: relative;
