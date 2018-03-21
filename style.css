@@ -60,14 +60,20 @@ div.wrapper {
 	position: absolute;
 }
 header.nav {
+	background-color: black;
 	position: absolute;
 	margin-left: 530px;
+}
+header:hover {
+	background-color: snow;
+	color: gold;
 }
 li.nav {
 	float: left;
 	margin: 0 5px;
 }
 ul, li, a {
+	color: gold;
 	display: block;
 }
 div.title {
