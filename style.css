@@ -60,17 +60,18 @@ div.wrapper {
 	position: absolute;
 }
 header.nav {
-	background-color: black;
 	position: absolute;
-	margin-left: 530px;
+	margin-left: 500px;
 }
-header:hover {
+a:hover {
 	background-color: snow;
-	color: gold;
 }
 li.nav {
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 10px;
 	float: left;
-	margin: 0 5px;
+	margin: 0px 5px;
 }
 ul, li, a {
 	color: gold;
