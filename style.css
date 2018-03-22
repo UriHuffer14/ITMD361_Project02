@@ -62,7 +62,7 @@ div.wrapper {
 header.nav {
 	background-color: black;
 	position: absolute;
-	margin-left: 500px;
+	margin-left: 450px;
 }
 a.nav:hover {
 	background-color: snow;
@@ -77,6 +77,9 @@ li.nav {
 ul, li, a {
 	color: black;
 	display: block;
+}
+li {
+	text-indent: 20px;
 }
 a.nav {
 	color: gold;
@@ -96,15 +99,24 @@ div.title {
 .sectiontitle {
 	font-size: 1.1em;
 	text-indent: 50px;
-	margin: 10px 0px;
+	margin: 5px 0px;
+	text-decoration: underline;
+}
+.sectiontitle2 {
+	font-weight: bold;
+	font-size: 1.1em;
+	text-indent: 50px;
+	margin: 5px 0px;
+	text-decoration: none;
 }
 .para {
 	background-color: turquoise;
 }
 article.section1 {
-	margin: 10px 0px;
+	margin: 10px 30px;
 	padding-bottom: 20px;
 	border: 5px solid midnightblue;
+	/*text-spacing: 1.1em;*/
 }
 article.section2 {
 	margin: 10px 20px;
@@ -119,7 +131,17 @@ article.section3 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 15%;
+	margin-top: 15px;
+}
+.video {
+	
 }
 footer.footer {
-	
+	text-align: center;
+	font-size: 1.3em;
+	background-color: lightgrey;
+}
+a.footer {
+	text-decoration: none;
+
 }
