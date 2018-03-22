@@ -66,6 +66,7 @@ div.fluid {
 	margin-right: 10%;
 	margin-left: 10%;
 	background-image: url("media/dexlogo.png");
+	background-image
 }
 header.nav {
 	background-color: black;
@@ -103,6 +104,12 @@ ul, li, a {
 li {
 	text-indent: 20px;
 }
+a.section3 {
+	color: cadetblue;
+}
+li.section3 {
+	color: gold;
+}
 a.nav {
 	color: gold;
 	text-decoration: none;
@@ -130,6 +137,7 @@ div.title {
 	text-indent: 50px;
 	margin: 5px 0px;
 	text-decoration: none;
+	padding: 6px 0px;
 }
 .para {
 	background-color: turquoise;
@@ -149,6 +157,7 @@ article.section3 {
 	margin-right: auto;
 	float: center;
 	padding-bottom: 20px;
+	color: gold;
 }
 .myphoto {
 	display: block;
