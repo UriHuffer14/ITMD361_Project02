@@ -59,10 +59,32 @@ div.wrapper {
 	width: 960px;
 	position: absolute;
 }
+div.fluid {
+	width: 70%;
+	position: absolute;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-image: url("media/dexlogo.png");
+}
 header.nav {
 	background-color: black;
 	position: absolute;
 	margin-left: 450px;
+}
+header.fluid {
+	background-color: black;
+	position: absolute;
+	margin-left: 80%;
+}
+div.titlefluid {
+	text-align: center;
+	float: center;
+	margin-top: 8%;
+	margin-left: 30%;
+	margin-bottom: 4%;
+	font-size: 1.5em;
+	padding-right: 25%;
 }
 a.nav:hover {
 	background-color: snow;
@@ -123,7 +145,9 @@ article.section2 {
 	padding-bottom: 20px;
 }
 article.section3 {
-	margin: 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
 	padding-bottom: 20px;
 }
 .myphoto {
@@ -143,5 +167,11 @@ footer.footer {
 }
 a.footer {
 	text-decoration: none;
-
+}
+.resume {
+	padding: 10px;
+}
+.resborder {
+	margin: 10px;
+	border: 6px dashed black;
 }
