@@ -98,12 +98,16 @@ div.title {
 	text-indent: 50px;
 	margin: 10px 0px;
 }
+.para {
+	background-color: turquoise;
+}
 article.section1 {
 	margin: 10px 0px;
 	padding-bottom: 20px;
+	border: 5px solid midnightblue;
 }
 article.section2 {
-	margin: 10px 0px;
+	margin: 10px 20px;
 	padding-bottom: 20px;
 }
 article.section3 {
