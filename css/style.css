@@ -66,8 +66,8 @@ div.fluid {
 	margin-right: 8%;
 	margin-left: 8%;
 	background-image: url("media/dexlogo.png");
-	padding-left: 2%;
-	padding-right: 2%;
+	/*padding-left: 2%;
+	padding-right: 2%; */
 }
 header.nav {
 	background-color: black;
@@ -164,6 +164,8 @@ article.section3 {
 	/*float: center; */
 	padding-bottom: 20px;
 	color: gold;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 .myphoto {
 	display: block;
