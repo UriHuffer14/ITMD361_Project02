@@ -184,4 +184,5 @@ a.footer {
 .resborder {
 	margin: 10px;
 	border: 6px dashed black;
+	padding: 15px;
 }
