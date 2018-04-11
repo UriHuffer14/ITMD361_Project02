@@ -65,7 +65,7 @@ div.fluid {
 	float: left;
 	margin-right: 8%;
 	margin-left: 8%;
-	background-image: url("media/dexlogo.png");
+	/*background-image: url("media/dexlogo.png");*/
 	/*padding-left: 2%;
 	padding-right: 2%; */
 }
@@ -90,6 +90,7 @@ div.titlefluid {
 	margin-bottom: 4%;
 	font-size: 1.5em;
 	padding-right: 25%;
+	background-image: url("media/dexlogo.png");
 }
 a.nav:hover {
 	background-color: snow;
