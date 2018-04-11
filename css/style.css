@@ -166,6 +166,8 @@ article.section3 {
 	color: gold;
 	padding-right: 2%;
 	padding-left: 2%;
+	/*background-color: gray; */
+	background-color: aliceblue;
 }
 .myphoto {
 	display: block;
