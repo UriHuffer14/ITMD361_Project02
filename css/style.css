@@ -63,9 +63,11 @@ div.fluid {
 	width: 80%;
 	position: absolute;
 	float: left;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 8%;
+	margin-left: 8%;
 	background-image: url("media/dexlogo.png");
+	padding-left: 2%;
+	padding-right: 2%;
 }
 header.nav {
 	background-color: black;
