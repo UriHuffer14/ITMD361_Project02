@@ -58,8 +58,10 @@ h1, h3 {
 div.wrapper {
 	width: 960px;
 	position: absolute;
+	margin-left: 20px;
 }
 div.fluid {
+	top: 24px;
 	width: 80%;
 	position: absolute;
 	float: left;
@@ -79,17 +81,17 @@ header.fluid {
 	/*height: 24px; */
 	background-color: black;
 	position: absolute;
-	margin-left: 40%;
+	margin-left: 390px;
 }
 div.titlefluid {
 	width: 344px;
 	text-align: center;
-	/*float: center; */
-	margin-top: 60px;
-	margin-left: 30%;
+	/*float: left; */
+	margin: 30%;
+	margin-top: 35px;
 	margin-bottom: 4%;
 	font-size: 1.5em;
-	padding-right: 25%;
+	/*padding-right: 25%;
 	/*background-image: url("media/dexlogo.png");*/
 }
 a.nav:hover {
